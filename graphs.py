@@ -10,11 +10,6 @@ def update_graph_undirected(node, neighbors, graph):
 
 def graph_search(graph, start, end=None, do_breadth_first=True):
     '''Produces path generator for the given graph, endpoints, and search type.
-
-        :param graph:
-        :param start:
-        :param end:
-        :param do_breadth_first:
     '''
     paths = [[start]]
     visited = []
